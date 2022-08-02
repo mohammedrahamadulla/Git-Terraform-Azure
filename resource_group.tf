@@ -19,3 +19,8 @@ resource "azurerm_resource_group" "rg4" {
   name     = "devopsb27rg4"
   location = "eastus"
 }
+
+resource "azurerm_resource_group" "rg5" {
+  name     = "devopsb27rg5"
+  location = "eastus"
+}
